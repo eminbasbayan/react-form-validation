@@ -46,6 +46,11 @@ code {
   opacity: 0.5;
 }
 
+.App form button:disabled {
+  opacity: 0.5;
+  cursor: no-drop;
+}
+
 h1 {
   text-align: center;
 }
